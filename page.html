@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <style>
+        .secao-destaque{
+            background: url(img/bg.png)no-repeat;
+            background-size:cover ;
+        }
+        .bg-footer{
+            background: url(img/bg-footer.png)no-repeat center bottom;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!--diferença de container e conteiner-fluid  
+        container fluid tem porcentagem e pega a tela inteira
+        container simples pega o tamanho do bootstrap-->
+        <div class="secao-destaque text-white text-center text-lg-left bg-dark pb-5">
+            <div class="container-fluid">
+                
+                <header class="row pt-2">
+                    <div class="col-6 col-lg-6">
+                        <h1>
+                            <img src="img/logo.png" alt="Logo escola do freela">
+                        </h1>
+                    </div>
+                    <div class="col-6 col-lg-6">
+                        <nav><!--sempre colocar listas dentro de nav depois ul e por utimo li-->
+                            <ul class="nav justify-content-end">
+                                <li class="nav-iten"> <a  class="nav-link text-white" href="#">diferenciais</a></li>
+                                <li class="nav-iten"> <a  class="nav-link text-white" href="#">venha conosco</a></li>
+                                <li class="nav-iten"> <a  class="nav-link text-white"  href="#">aprenda</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+                
+            </div>
+            
+            
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h2 class="pt-5  pb-3">Tá a fim de entregar o  trabalho no prazo e ter controle financeiro ?</h2>
+                        <p class="pb-3">O kit do freela ajuda a te manter organizado e atualizado com as principais novidades do mercado</p>
+                        <div class="grupo-botoes pb-5"> 
+                            <a href="#" class="btn btn-primary">Comprar agora</a>
+                            <a href="#" class="btn btn-outline-light">Conhecer mais</a>
+                        </div>       
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <section class="diferenciais container">
+            <div class="row pt-5 pb-5"><!--sempre que for separar em colunas colocar dentro da row-->
+                <div class="col-12 col-lg-4 text-center pt-5 pb-5">
+                    <img class="img-fluid" src="img/icon1.png" alt="">
+                    <h5>card</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12  col-lg-4 text-center pt-5 pb-5">
+                    <img class="img-fluid" src="img/icon2.png" alt="">
+                    <h5>card</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center pt-5 pb-5">
+                    <img class="img-fluid" src="img/icon3.png" alt="">
+                    <h5>card</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="vantagens bg-light pt-5 pb-5">
+            <div class="container pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-7  pb-5 pb-lg-0">
+                        <img class="img-fluid" src="img/image1.png" alt="">
+                    </div>
+                    <div class="col-12 col-lg-5 align-self-center">
+                        <h3>receba no seu e-mail</h3>
+                        <p class="lead">
+                            Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                        </p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci earum rerum aperiam dignissimos numquam</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci earum rerum aperiam dignissimos numquam</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci earum rerum aperiam dignissimos numquam</li>
+                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci earum rerum aperiam dignissimos numquam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="bg-footer  pt-5 pb-5">
+            <section class="imscreva-se container pt-5 pb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-5 text-center">
+                        <h3>Receba por e-mail</h3>
+                        <p>Tá a fim de entregar o  trabalho no prazo e ter controle financeiro .</p>
+                        <form action="" class="row">
+                            <div class="col-8 col-lg-9 pl-0">
+                                <input type="text " class="form-control">
+                            </div>
+                            <div class="col-4 col-lg-3">
+                                <input class="btn btn-success form-control" type="submit" value="receber">
+                            </div>                           
+                            
+                            
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <img src="img/logo-footer.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
